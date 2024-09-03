@@ -4,8 +4,8 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: #DDDDDD; /* Cor de fundo da página */
-    background-image: url('img/bgbrasil.jpg');
+    background-color: #1c9bb6; /* Cor de fundo da página */
+    /*background-image: url('img/bgbrasil.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -85,6 +85,12 @@ section {
     align-items: center; /* Centraliza os itens horizontalmente */
     margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
 }
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+  }
 
 /* Estiliza os inputs dentro das seções */
 section input {
