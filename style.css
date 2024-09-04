@@ -65,22 +65,37 @@ section button {
 
 .pet-card {
     display: flex;
-    justify-content: space-between;
+    width: 300px; /* Ajuste o valor conforme necessário */
+    justify-content: flex-start;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #ffffff; /* Cor de fundo branca */
     border-radius: 10px; /* Arredonda as bordas em 10 pixels */
     margin-bottom: 20px; /* Ajusta o valor conforme necessário */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
   }
+
+  .pet-cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
+    justify-content: center;
+  } 
   
   .pet-card img {
     width: 80px;
     height: auto;
+    border-radius: 10%; /* Arredonda a imagem em um círculo perfeito */
   }
   
   .pet-info {
     text-align: left;
     padding-left: 10px; /* Ajuste o valor conforme necessário */
+  }
+
+  .pet-card p {
+    font-size: 14px;
+    line-height: 1.1; /* Reduz o espaçamento entre as linhas */
+    margin: 10;
   }
   
   /* Para telas menores */
@@ -148,3 +163,37 @@ footer {
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:   
+   #333;
+  }
+  
+  .add-button {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1c9bb6; /* Cor do botão de adicionar paciente */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-button button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
