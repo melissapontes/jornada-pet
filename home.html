@@ -12,40 +12,10 @@
     </header>
     <main>
         <section>
-            <input type="text" placeholder="Digite o nome do Pet?">
-            <button type="submit">Pesquisar</button>
+            <input type="text" id="campo-pesquisa" placeholder="Digite o nome do Pet">
+            <button onclick="pesquisar()">Pesquisar</button>
         </section>    
-        <section class="resultados-pesquisa">
-            <div class="pet-card">
-                <img src="img/paciente1.jpg" alt="Oscar">
-                <div class="pet-info">
-                  <h2>Oscar</h2>
-                  <p>Felino, 3 anos, SRD.</p>
-                  <p>DRC 1</p>
-                  <p>Tutor(a): Angélica Soares</p>
-                </div>
-            </div>
-            <div class="pet-card">
-                <img src="img/paciente2.jpg" alt="Linda">
-                <div class="pet-info">
-                  <h2>Linda</h2>
-                  <p>Canina, 4 anos, Labrador Retrivier.</p>
-                </div>
-            </div>
-            <div class="pet-card">
-                <img src="img/paciente3.jpg" alt="Nina">
-                <div class="pet-info">
-                  <h2>Nina</h2>
-                  <p>Felino, 3 anos, SRD.</p>
-                </div>
-            </div>
-            <div class="pet-card">
-                <img src="img/paciente4.jpg" alt="Petisco">
-                <div class="pet-info">
-                  <h2>Petisco</h2>
-                  <p>Canina, 4 anos, SRD.</p>
-                </div>
-            </div>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
         </section>
     </main>
     <footer>
